@@ -1,16 +1,19 @@
 {
-  "name": "nauka-npm",
+  "name": "14.7",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kasia",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "description": "Testowy plik package.json",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
   "dependencies": {
-    "babel-standalone": "^6.26.0",
-    "colors": "^1.3.1",
-    "stat-mode": "^0.2.2"
+    "babel-standalone": "^6.26.0"
   }
 }
